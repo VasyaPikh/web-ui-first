@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -81,27 +82,64 @@
       }
 }
 
-.back-photo {
-    background-image: url(/img/stadiu.jpg);
-    width: max-content;
-
+.main-info {
+    padding-top: 150px;
 }
 
 .main-tittle {
-    padding-top: 20px;
-    border: 2px black solid;
     display: flex;
     justify-content: center;
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
 }
 
 p {
     display: flex;
     font-family: 'Nunito';
     margin-top: 30px;
-    padding: 0 20px 10px 20px;
+    padding: 10px 5px 10px 5px;
+    border: 2px black solid;
+    font-weight: bold;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent;
 }
 
 .main-info {
-    background-image: url(https://media.istockphoto.com/photos/green-grass-background-picture-id171309616?b=1&k=20&m=171309616&s=170667a&w=0&h=q1SORtqioyIfJQgF9SxUfSZcFbODpfK8ZVj0ycTCRuY=);
+    background-image: url(/img/stadiu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: rgb(216, 216, 6);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.first-logo {
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.second-logo {
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.third-logo {
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
 }
