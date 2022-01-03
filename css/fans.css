@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    position:fixed;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito';
+}
+
+.navbar a:hover{
+    border-bottom: 2px yellow solid;
+    color: yellow;
+}
+
+.navbar .logo:hover {
+    border-bottom: none;
+}
+
+
+@keyframes spin {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+.spinning {
+    animation: spin 2s infinite;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+@media all and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }  
+    .menu {
+          display: block;
+          position: absolute;
+          right: 15px;
+          top: 15px;
+      }
+
+      .nav-list {
+          list-style-type: none;
+          width: 100%;
+          text-align: center;
+          padding-top: 10px;
+          display: none;
+      }
+
+      .nav-list .list-item {
+          display: block;
+          border-bottom: 1px white solid;
+      }
+    
+      .active {
+          display: block;
+      }
+}
+
+
+main {
+    padding-top: 150px;
+    background: url(../img/stadium.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.tittle-text {
+    justify-self: center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.appeal-all {
+    display: block;
+    background-color: beige;
+    border: 21x rgb(0, 0, 0) solid;
+    width: 75%;
+    margin-left: 13%;
+    height: auto;
+}
+
+.first-appeal {
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+
+.hr-washed {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 3px black;
+}
+
+.second-appeal {
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.time {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.nick{
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.feed-text{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 20px;
+}
+
+
+footer {
+    background: linear-gradient(yellow, blue);
+    height: 80px;
+    margin-top: -40px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.first-logo {
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.second-logo {
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.third-logo {
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+}
