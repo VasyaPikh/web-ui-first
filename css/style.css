@@ -83,38 +83,41 @@
 }
 
 .main-info {
-    padding-top: 150px;
-}
-
-.main-tittle {
-    display: flex;
-    justify-content: center;
-    font-family: 'Nunito', sans-serif;
-    margin-left: 20px;
-}
-
-p {
-    display: flex;
-    font-family: 'Nunito';
-    margin-top: 30px;
-    padding: 10px 5px 10px 5px;
-    border: 2px black solid;
-    font-weight: bold;
-    background-color: yellow;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: transparent;
-}
-
-.main-info {
+    padding-top: 180px;
     background-image: url(../img/stadium.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.main-tittle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px 20px 0 20px;
+}
+
+p {
+    font-family: 'Nunito';
+    font-weight: bold;
+    margin: 30px 20px 30px 20px;
+    padding: 10px 20px 20px;
+    border: 2px rgb(0, 0, 0) solid;
+    background: rgba(255,245,215,.5);
+}
+
+
+.content { 
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+
 footer {
-    background-color: rgb(216, 216, 6);
+    background: linear-gradient(yellow, blue);
 }
 
 .footer-logo {
@@ -142,4 +145,5 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
