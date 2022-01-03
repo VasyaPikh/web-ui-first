@@ -118,6 +118,8 @@ p {
 
 footer {
     background: linear-gradient(yellow, blue);
+    height: 80px;
+    margin-top: -40px;
 }
 
 .footer-logo {
@@ -146,4 +148,5 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: blue;
 }
