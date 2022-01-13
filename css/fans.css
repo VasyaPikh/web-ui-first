@@ -198,3 +198,14 @@ footer {
     text-align: center;
     background-color: blue;
 }
+
+.new-time {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.feedback {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+}
