@@ -12,16 +12,15 @@ function addPost () {
   ) { 
   alert('Dont use tags "<>"')
   } else {
-    document.querySelector('.lastHardcore').insertAdjacentHTML(
+    document.querySelector('.newappeal').insertAdjacentHTML(
       'beforeend',
       '<div class="text-content text-content-fan "><div></div> <p class="paragraph">' +
       textMessage +
       '</p> <div class="fotter-message flex"><div class="date">' +
       currentDate.toLocaleString ([], {
-        dataStyle: 'short',
-        timeStyle: 'short',
+        dataStyle: 'short'
       }) +
-      '</div><div class="username">Guest</div></div></div>'
+      '</div><div class="username">User</div></div></div>'
     )
   } 
   document.getElementById('fan-message').value = null
