@@ -5,11 +5,12 @@ function addPost () {
   let currentDate = new Date ()
 
   if (textMessage.length < 2 || textMessage.trim () === ''){
-    alert('Введіть більше одного символу')
-  } else if 
-     (textMessage.indexOf('>') > -1 && textMessage.indexOf ('<') > -1) || textMessage.indexOf('<') === 0
+    alert('Enter more than one character')
+  } else if (
+     (textMessage.indexOf('>') > -1 && textMessage.indexOf ('<') > -1) ||
+      textMessage.indexOf('<') === 0
   ) { 
-  alert('Не використовуйте теги')
+  alert('Dont use tags "<>"')
   } else {
     document.querySelector('.lastHardcore').insertAdjacentHTML(
       'beforeend',
